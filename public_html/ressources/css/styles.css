@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ab5088;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #f5cae0;
+}
+
+header{
+    background-color: #f5cae0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+header > img {
+    border-radius: 60%;
+}
+
+#logout-link {
+    color: #6f006b;
+    font-weight: bolder;
+}
+
+#menu-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+main{
+    width: 500px;
+    margin-top: 20vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 1em;
+    background-color: #6f006b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 1em;
+    color:#f5cae0;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.input-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+input{
+    width: 100%;
+    min-width: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 1em;
+    border: 1px solid #f5cae0;
+    background-color: #f5cae0 ;
+    text-align: center;
+    align-items: start;
+    font-size: large;
+}
+
+main > form > button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 1em;
+    border: 1px solid #f5cae0;
+    background-color: #f5cae0 ;
+    color: #6f006b;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main > form > button{
+    text-decoration:  none;
+}
+
+main > form > button{
+    text-decoration:  none;
+    color: #6f006b;
+    font-size: larger;
+}
+
+.white{
+    color: white;
+}
+
+.go-back-button{
+    width: 100%;
+    padding-top: 10px;
+    height: 40px;
+    border-radius: 1em;
+    border: 1px solid #f5cae0;
+    background-color: #f5cae0 ;
+    color: #6f006b;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#private{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: white;
+    font-size: larger;
+}
