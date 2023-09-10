@@ -1,4 +1,4 @@
-# garaje-code-pills-PHP-Login_Sessions
+# garaje-code-pills-PHP-Login-Sessions
 
 Este proyecto corresponde al vídeo de la lista de reproducción de Code Pills de Garaje de Ideas: https://www.youtube.com/watch?v=hyrTlnUIoAY&list=PLTg7E2ObeSjYbdPS53J-0MUO8wSBYpJhC&index=1
 
